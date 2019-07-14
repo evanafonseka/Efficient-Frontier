@@ -7,7 +7,7 @@ pd.set_option('display.max_rows', 500) #Show all rows in df
 pd.set_option('display.max_columns', 500) #Show all columns in df
 pd.set_option('display.width', 1000)
 
-# Uploading the CV's
+# Uploading the CSV's fromyahoo finance
 anz = pd.read_csv(r'/Users/evanfonseka/Desktop/dev/efficient_frontier/anz.ax.csv')
 cba = pd.read_csv(r'/Users/evanfonseka/Desktop/dev/efficient_frontier/cba.ax.csv')
 mqg = pd.read_csv(r'/Users/evanfonseka/Desktop/dev/efficient_frontier/mqg.ax.csv')
