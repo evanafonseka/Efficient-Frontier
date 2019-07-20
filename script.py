@@ -1,11 +1,6 @@
 import pandas as pd  
-import numpy as np
 import matplotlib.pyplot as plt
 from functools import reduce
-
-pd.set_option('display.max_rows', 500) #Show all rows in df
-pd.set_option('display.max_columns', 500) #Show all columns in df
-pd.set_option('display.width', 1000)
 
 # Uploading the CSV's fromyahoo finance
 anz = pd.read_csv(r'/Users/evanfonseka/Desktop/dev/efficient_frontier/anz.ax.csv')
