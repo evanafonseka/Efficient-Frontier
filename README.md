@@ -4,6 +4,13 @@ Throughout university there has always been an emphasis on finding the efficient
 
 
 I have chosen to create a portfolio with the "Big 5" banks in Australia: ANZ, CBA, MQG, NAB and WBC.
+The process I had taken was:-
+
+1.) Calculate %change for each stock
+2.) Calculate daily, annual returns and covariance of the stocks
+3.) Set the number of combinations for imaginary portfolios (100,000)
+
+Compute an 'efficent frontier' that found the optimal weights to be:
 
 
 
