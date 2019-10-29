@@ -10,7 +10,7 @@ Takes into account:
 - Expected Return
 - Sharpe Ratio
 
-Please see code in __init__.py for clarifications of calculations
+Please see code in __init__.py for clarifications of calculations.
 
 ![frontier_graph](https://user-images.githubusercontent.com/49772033/67746179-0e09fb00-fa7a-11e9-92ff-0c58193eecda.png)
 
