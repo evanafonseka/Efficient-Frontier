@@ -6,10 +6,6 @@ import matplotlib.pyplot as plt
 banks = ("NAB.AX","WBC.AX","CBA.AX","ANZ.AX","MQG.AX")
 data = yf.download(banks, period="max",interval="1d")
 df = data.iloc[:,0:5]
-
-#Calculate historical VaR
-#Calculate Standard Deviation VaR
-
 log_ret = np.log(df/df.shift(1))
 
 np.random.seed(42)
