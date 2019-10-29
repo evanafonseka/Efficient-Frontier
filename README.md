@@ -1,6 +1,13 @@
 # Efficient-Frontier: Applying financial theory to code
 
 Portfolio consisting of the "Big 5" banks in Australia: ANZ, CBA, MQG, NAB and WBC.
+
+![historical_performance](https://user-images.githubusercontent.com/49772033/67761229-00af3980-fa97-11e9-86e9-c21df9dd7452.png)
+
+
+
+
+
 - Frequency = Daily Adjusted Close
 - Period Start = 1988-01-29	
 - Period End = Today
