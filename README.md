@@ -8,7 +8,7 @@ Portfolio with the "Big 5" banks in Australia: ANZ, CBA, MQG, NAB and WBC.
 Takes into account:
 - Standard Deviation
 - Expected Return
-- Sharpe Ratio.
+- Sharpe Ratio
 
 Please see code in __init__.py for clarifications of calculations
 
