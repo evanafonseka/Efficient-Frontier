@@ -19,7 +19,7 @@ Takes into account:
 - Standard Deviation
 - Expected Return
 - Sharpe Ratio
-- Ran 9999 possible outcomes for the optimal weighting with the highest sharpe ratio
+- Ran 9,999 possible outcomes to find the optimal weighting with the highest sharpe ratio
 
 Please see code for clarifications of calculations.
 
