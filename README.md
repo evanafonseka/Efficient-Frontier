@@ -19,9 +19,19 @@ Takes into account:
 - Standard Deviation
 - Expected Return
 - Sharpe Ratio
-- Ran 9,999 possible outcomes to find the optimal weighting with the highest sharpe ratio
+- Ran 10,000 possible outcomes to find the optimal weighting with the highest sharpe ratio
 
-Please see code for clarifications of calculations.
+## Findings
+
+|Stock | Optimal Weight | 
+|:----:|:-----:|
+|ANZ.AX|9.7%|
+|CBA.AX|54.8%|
+|MQG.AX|23.4%|
+|NAB.AX|5.4%|
+|WBC.AX|6.7%|
+
+
 
 ![efficient_frontier](https://user-images.githubusercontent.com/49772033/67842691-c3a67e00-fb4e-11e9-8375-d434966b2579.png)
 
