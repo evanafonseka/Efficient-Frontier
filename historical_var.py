@@ -3,10 +3,10 @@ import os
 import matplotlib.pyplot as plt
 from __init__ import *
 
+
 # Holding of $1,000,000 in optimal weights
 total_p = optimal_weights * 1000000
-holdings = {'Stocks':['ANZ.AX', 'CBA.AX','MQG.AX','NAB.AX','WBC.AX'], 
-        'Quantity':[total_p]}
+holdings = {'Stocks':['ANZ.AX', 'CBA.AX','MQG.AX','NAB.AX','WBC.AX'],'Quantity':[total_p]}
 
 df = df
 log_ret = np.log(df/df.shift(1))
@@ -29,8 +29,5 @@ plt.axvline(x=var, color='r', linestyle='--', label='Price at Confidence Interva
 plt.legend(loc='upper right', fontsize = 'x-small')
 plt.show()
 
-print ("At a 99% confidence level the worst possible outcome is: " + str(round(var, 2)))
-
-
-
-
+annual_var = np.sqrt(252) * var
+print ("At a 99% confidence level the worst possible outcome is " + str(round(annual_var, 1)))
