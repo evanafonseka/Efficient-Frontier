@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 
 
 class EfficientFrontier:
-    def __init__(self, ticker_list):
+    def __init__(self, ticker_list, simulations):
         self.ticker_list = ticker_list
         self.df = pd.DataFrame
-        self.simulations = 40000
+        self.simulations = simulations
 
     def ImportFromYahooFinance(self):
         self.df = yf.download(self.ticker_list, period="1y", interval="1d")

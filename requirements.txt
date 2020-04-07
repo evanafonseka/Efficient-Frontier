@@ -1,3 +1,6 @@
+seaborn
+scikit-learn
+tensorflow
 pandas
 yfinance
 numpy
